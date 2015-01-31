@@ -1,0 +1,245 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+ @import "compass/reset";
+ $blue : #01A5CA;
+
+ body {
+  font-family: 'Droid Sans',Helvetica,Verdana, Arial, sans-serif;
+  font-size: 16px;
+  width: 100%;
+  margin: 0 auto;
+  background-image: url(../images/bg_html.jpg);
+  a{
+    text-decoration: none;
+    color:$blue;
+  }
+  a:hover {
+    font-weight: bold;
+    opacity: 0.7;
+  }
+
+  .header {
+    top: 0px;
+    left:90px;
+    margin: 0 auto;
+    width: 940px;
+    text-align: right;
+    .head_logo{
+      float: left;
+      padding:30px 180px 30px 20px;
+    }
+
+    .head_social {
+      display:inline;
+      padding: 30px 5px 40px 5px;
+      float: right;
+      height: 23px;
+    }
+    ul{
+       padding:100px 10px 30px 0px;
+      li {
+        display: inline;
+        padding-left: 30px;
+        font-size: 0.9em;
+        a {
+          color: black;
+        }
+        a:hover {
+          color:$blue;
+          font-weight: normal;
+          opacity: 0.7;
+        }
+      }
+    }
+    .clear{
+      clear:both;
+    }
+
+  }
+
+
+  .slider {
+    clear:left;
+    width: 940px;
+    background-color: rgba(0, 0, 0, 0.85);
+    margin: auto;
+    height: 410px;
+
+    .slider_left{
+      float: left;
+      width: 640px;
+    }
+    .slider_right {
+      float: right;
+      text-align: left;
+      width: 300px;
+      height: 415px;
+      // a{
+      //   text-decoration: none;
+      //   color:$blue;
+      // }
+      // a:hover {
+      //   font-weight: bold;
+      //   opacity: 0.7;
+      // }
+      .slider_bigText {
+        padding: 45px 0px 30px 45px;
+        color: $blue;
+        font-size: 1.8em;
+      }
+      .slider_smlText {
+        color: white;
+        padding: 0px 45px 30px 45px; 
+        font-weight: normal;
+        line-height: 1.8em;
+      }
+      .slider_btn {
+        font-size: 1.1em;
+        border: none;
+        margin-left: 45px;
+        text-align: center;
+        background-color: rgba(100, 100, 100, 0.85);
+        color: white;
+        width: 130px;height: 45px;
+      }
+    }
+  }
+  
+  .content {
+    margin: 50px auto;
+    width: 940px;
+
+
+    .content_intro {
+      background-color: white;
+      padding: 50px;
+      line-height: 1.8em;
+      // a{
+      //   text-decoration: none;
+      //   color:$blue;
+      // }
+      // a:hover {
+      //   font-weight: bold;
+      //   opacity: 0.7;
+      // }
+    }
+
+    .content_feature{
+      margin-top: 50px;
+      margin-bottom: 50px;
+      background-color: #fff;
+
+      
+      .content_feature_left{
+        background-color: #fff;
+        float: left;
+        width: 650px;
+        height: 450px;
+        h2{
+          font-size: 1.5em;
+          padding-top:35px;
+          padding-left:50px;
+        }
+        span{
+          color:$blue;
+        }
+
+        .content_feature_left_event1, .content_feature_left_event2 {
+          height:140px;
+          padding: 20px 20px 10px 50px;
+          line-height: 1.3em;
+          img{
+
+            float: left;
+          }
+          p{
+            margin-left: 185px;
+            padding-left:25px;
+          }
+          h4{
+            margin-left: 185px;
+            padding-left:25px;
+            font-weight: bold;
+          }
+        }
+      }
+
+      .content_feature_right{
+        background-color: white;
+        float: right;
+        width: 290px;
+        // padding-top:35px;
+        // padding-left: 15px;
+        height: 450px;
+        .serive_list{
+          padding: 40px 0px 10px 0px;
+        }
+        h2{
+          font-size: 1.5em;
+        }
+        span{
+          color:$blue;
+        }
+        ul{
+          color:$blue;
+          margin-left: 10px;
+
+        }
+        li{
+          margin-top: 15px;
+          font-size: 0.9em;
+          position:relative;
+          padding-left: 17px;
+          // padding-left:30px;
+        }
+        li:before{
+          content:"\2b29";
+          left:0;
+          position:absolute;
+        }
+        span{
+          color:black;
+        }
+        .findUs{
+          background-color: #fff;
+          padding-left: 10px;
+          h2{  
+            padding-top: 40px;
+          }
+          span{
+            color:$blue;
+          }
+          .zipcode{
+            font-size: 16px;
+            width: 210px;
+            height: 40px;
+            margin-top:20px;
+          }
+          .zipcode_btn{
+            font-size: 1em;
+            border: none;
+            margin-top: 20px;
+            background-color: #EBEBEB;
+            color: $blue;
+            width: 100px;height: 40px;
+          }
+        }
+      }
+    }
+  }
+
+
+  .footer{
+    clear:left;
+    padding-top: 35px;
+    margin-bottom: 45px;
+    text-align: center;
+    p{
+      line-height: 1.5em;
+    }
+  }
+}
+

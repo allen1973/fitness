@@ -1,0 +1,759 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"copany",
+				"companyName"
+			],
+			[
+				"pos",
+				"pos:f	position:fixed"
+			],
+			[
+				"va",
+				"va:m	vertical-align:middle"
+			],
+			[
+				"sty",
+				"stylesheet"
+			],
+			[
+				"col",
+				"color:$blue"
+			],
+			[
+				"zip",
+				"zipcode_btn"
+			],
+			[
+				"ser",
+				"serive_list"
+			],
+			[
+				"lst",
+				"list:d	list-style-type:disc"
+			],
+			[
+				"d",
+				"d:ib	display:inline-block"
+			],
+			[
+				"di",
+				"d:i	display:inline"
+			],
+			[
+				"cl",
+				"color"
+			],
+			[
+				"conten",
+				"content_feature_right"
+			],
+			[
+				"content",
+				"content_feature_left"
+			],
+			[
+				"fw",
+				"fw:b	font-weight:bold"
+			],
+			[
+				"pr",
+				"pos:r	position:relative"
+			],
+			[
+				"bd",
+				"bd:n	border:none"
+			],
+			[
+				"ta",
+				"ta:c	text-align:center"
+			],
+			[
+				"slider",
+				"slider_img"
+			],
+			[
+				"fz",
+				"fz	font-size"
+			],
+			[
+				"head",
+				"head"
+			],
+			[
+				"fs",
+				"fs:i	font-style:italic"
+			],
+			[
+				"td",
+				"td:n	text-decoration:none"
+			],
+			[
+				"lorem",
+				"lorem_words"
+			],
+			[
+				"left",
+				"left"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"padding",
+				"padding-bottom"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"line",
+				"line-height: 〔property〕"
+			],
+			[
+				"vert",
+				"vertical-align"
+			],
+			[
+				"list",
+				"list-style"
+			],
+			[
+				"border",
+				"border-spacing"
+			],
+			[
+				"pa",
+				"page1-img1.jpg	w:185 h:140"
+			],
+			[
+				"lh",
+				"line-height: 〔property〕"
+			],
+			[
+				"rgba",
+				"rgba()"
+			],
+			[
+				"backg",
+				"background-color"
+			],
+			[
+				"rg",
+				"rgb()"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"png",
+				"slider-1.png	w:640 h:415"
+			],
+			[
+				"sli",
+				"slider"
+			],
+			[
+				"ima",
+				"images"
+			],
+			[
+				"dot",
+				"dot_tweet.png	w:23 h:23"
+			],
+			[
+				"s",
+				"small_2.jpg	w:197 h:320"
+			],
+			[
+				"table",
+				"table-caption"
+			],
+			[
+				"ver",
+				"vertical-align"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"opa",
+				"opacity"
+			],
+			[
+				"zi",
+				"z-index: 〔property〕"
+			],
+			[
+				"w",
+				"width"
+			],
+			[
+				"bgsz",
+				"bgsz-cv	background-size: cover;"
+			],
+			[
+				"x",
+				"repeat-x"
+			],
+			[
+				"rgb",
+				"rgba()"
+			],
+			[
+				"background-color",
+				"background-color: 〔property〕"
+			],
+			[
+				"padd",
+				"padding-bottom"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"DUMMY",
+				"DUMMYITEMS"
+			],
+			[
+				"Dumm",
+				"DUMMYITEMS"
+			],
+			[
+				"html",
+				"html	html"
+			],
+			[
+				"_",
+				"_POST  (variable)"
+			],
+			[
+				"get",
+				"getRandom"
+			],
+			[
+				"fade",
+				"fadeOut  (function)"
+			],
+			[
+				"ligh",
+				"lightning1"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"g",
+				"guess_box"
+			],
+			[
+				"dis",
+				"discount_msg"
+			],
+			[
+				"move_",
+				"move_down"
+			],
+			[
+				"sticki",
+				"stickiesArray"
+			],
+			[
+				"stick",
+				"stickiesArray"
+			],
+			[
+				"box",
+				"box-shadow"
+			],
+			[
+				"mysql_err",
+				"mysql_error"
+			],
+			[
+				"mysql_fetc",
+				"mysql_fetch_row"
+			],
+			[
+				"mysql_num",
+				"mysql_num_rows"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"align",
+				"text-align"
+			],
+			[
+				"box-",
+				"box-align:   (property)"
+			],
+			[
+				"ali",
+				"align"
+			],
+			[
+				"crea",
+				"createElement  (function)"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 107.0,
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"enable",
+				"LiveReload: Enable/disable plug-ins"
+			],
+			[
+				"ena",
+				"LiveReload: Enable/disable plug-ins"
+			],
+			[
+				"package",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"packagere",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"LiveReload: Enable/disable plugins",
+				"LiveReload: Enable/disable plug-ins"
+			],
+			[
+				"enab",
+				"Package Control: Enable Package"
+			],
+			[
+				"port",
+				"Package Control: Disable Package"
+			],
+			[
+				"dis",
+				"LiveReload: Enable/disable plug-ins"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Enable Package"
+			],
+			[
+				"",
+				"File: New View into File"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control:",
+				"Package Control: Disable Package"
+			],
+			[
+				"Package Control: re",
+				"Package Control: Remove Package"
+			],
+			[
+				"delet",
+				"File: Delete"
+			],
+			[
+				"intall",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 593.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/ericx1023/Documents/Learning Programming",
+		"/Users/ericx1023/Documents/Learning Programming/FireApp",
+		"/Users/ericx1023/Documents/Learning Programming/FireApp/week8",
+		"/Users/ericx1023/Documents/Learning Programming/FireApp/week8/.sass-cache",
+		"/Users/ericx1023/Documents/Learning Programming/FireApp/week8/sass"
+	],
+	"file_history":
+	[
+		"/Users/ericx1023/Documents/Learning Programming/FireApp/week8/index.html.erb",
+		"/Users/ericx1023/Documents/Learning Programming/FireApp/week8/_layout.html.erb",
+		"/Users/ericx1023/Documents/Learning Programming/FireApp/week8/sass/screen.scss",
+		"/Users/ericx1023/Documents/Learning Programming/Java/workspace-java/nestedType/src/nestedType/Company.java",
+		"/Users/ericx1023/Documents/Learning Programming/FireApp/week8/stylesheets/screen.css",
+		"/Users/ericx1023/Documents/Learning Programming/FireApp/week8/learningNote.txt",
+		"/Users/ericx1023/Documents/Learning Programming/Git/project1/連我都懂的Github.txt",
+		"/Users/ericx1023/Documents/Learning Programming/FireApp/week8/p1.html.erb",
+		"/Users/ericx1023/Documents/Learning Programming/FireApp/week8/week2HomeWork.zip",
+		"/Users/ericx1023/Documents/Learning Programming/FireApp/week8/stylesheets/p1.css",
+		"/Users/ericx1023/Documents/Learning Programming/FireApp/week8/sass/p1.scss",
+		"/Users/ericx1023/Documents/Learning Programming/FireApp/week8/stylesheets/pi.css",
+		"/Users/ericx1023/Documents/Learning Programming/FireApp/week8/sass/default.scss",
+		"/Users/ericx1023/Documents/Learning Programming/FireApp/week8/sass/pi.scss",
+		"/Users/ericx1023/Documents/Learning Programming/FireApp/week8/about.png",
+		"/Users/ericx1023/Documents/Learning Programming/FireApp/week8/stylesheets/default.css",
+		"/Users/ericx1023/Documents/Learning Programming/FireApp/fireapp-documents-teaching-material/screenshots.html.erb",
+		"/Users/ericx1023/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/ericx1023/Documents/Learning Programming/FireApp/week8/myerstone.html",
+		"/Users/ericx1023/Library/Application Support/Sublime Text 3/Packages/Theme - Default/Default.sublime-theme",
+		"/Users/ericx1023/Library/Application Support/Sublime Text 3/Packages/Color Scheme - Default/Monokai.tmTheme",
+		"/Users/ericx1023/Library/Application Support/Sublime Text 3/Packages/Emmet/Default (OSX).sublime-keymap",
+		"/Users/ericx1023/Library/Application Support/Sublime Text 3/Packages/User/Emmet.sublime-settings",
+		"/Users/ericx1023/Library/Application Support/Sublime Text 3/Packages/User/LiveReload.sublime-settings",
+		"/Users/ericx1023/Library/Application Support/Sublime Text 3/Packages/LiveReload/LiveReload.sublime-settings",
+		"/Users/ericx1023/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/ericx1023/Library/Application Support/Sublime Text.app/Packages/LiveReload/LiveReload.sublime-settings",
+		"/Users/ericx1023/Documents/Learning Programming/FireApp/week8/sass-convert",
+		"/Users/ericx1023/Documents/Learning Programming/Python/Mezzanie/0126PyGroup",
+		"/Applications/XAMPP/xamppfiles/htdocs/myProj/week8/stylesheets/all.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/myProj/week8/_layout.html.erb",
+		"/Applications/XAMPP/xamppfiles/htdocs/myProj/week8/index.html.erb",
+		"/Applications/XAMPP/xamppfiles/htdocs/myProj/week8/stylesheets/default.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/myProj/week8/sass/screen.scss",
+		"/Applications/XAMPP/xamppfiles/htdocs/myProj/week8/learningNote.txt",
+		"/Users/ericx1023/Documents/Learning Programming/FireApp/fireapp-documents-teaching-material/index.html.erb",
+		"/Users/ericx1023/Documents/Learning Programming/FireApp/fireapp-documents-teaching-material/_layout.html.erb",
+		"/Users/ericx1023/Documents/Learning Programming/FireApp/homework_w2/sass/screen.scss",
+		"/Users/ericx1023/Documents/Learning Programming/FireApp/homework_w2/index.html.erb",
+		"/Users/ericx1023/Documents/Learning Programming/FireApp/homework_w2/default.html",
+		"/Users/ericx1023/Documents/Learning Programming/洧杰上課筆記/上課筆記150123",
+		"/Applications/XAMPP/xamppfiles/htdocs/myProj/week8/myerstone.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/myProj/week8/index.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/myProj/testcompass/test2/stylesheets/screen.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/myProj/test/sass/test5.scss",
+		"/Applications/XAMPP/xamppfiles/htdocs/myProj/testcompass/test2/sass/screen.scss",
+		"/Applications/XAMPP/xamppfiles/htdocs/myProj/test/stylesheets/test5.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/myProj/testcompass/test2/index.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/myProj/test/test5.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/myProj/testcompass/index.html",
+		"/Users/ericx1023/Documents/Learning Programming/Compass/test/config.rb",
+		"/Users/ericx1023/Documents/Learning Programming/Compass/test/sass/screen.scss",
+		"/Users/ericx1023/Documents/Learning Programming/Compass/test/stylesheets/screen.css",
+		"/Users/ericx1023/Documents/Learning Programming/Compass/test/index.html",
+		"/Users/ericx1023/Documents/Learning Programming/Compass/test/sass/text.scss",
+		"/Applications/XAMPP/xamppfiles/htdocs/myProj/test/css/test5.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/myProj/week8/css/myStyle.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/myProj/week8/css/bootstrap.min.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/week8/index.html",
+		"/Users/ericx1023/Library/Application Support/Sublime Text 3/Packages/AdvancedNewFile/Default (OSX).sublime-keymap",
+		"/Applications/XAMPP/xamppfiles/htdocs/myProj/test/sass/screen.scss",
+		"/Applications/XAMPP/xamppfiles/htdocs/myProj/ShengsNest/profile.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/myProj/ShengsNest/tmp/jqia.source/chapter7/photomatic/photomatic.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/myProj/ShengsNest/tmp/jqia.source/chapter5/collapsible.list.take.1.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/myProj/banksy/index.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/myProj/ShengsNest/tmp/jqia.source/appendixA/index.json",
+		"/Applications/XAMPP/xamppfiles/htdocs/myProj/ShengsNest/tmp/jqia.source/chapter6/new.stuff.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/myProj/test/css/test4.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/myProj/test/css/bootstrap.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/myProj/test/ul1.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/myProj/test/css/test.css",
+		"/Users/ericx1023/Documents/sass-test/test.scss",
+		"/Applications/XAMPP/xamppfiles/htdocs/myProj/test/test4.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/myProj/test/test3.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/myProj/test/test.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/myProj/test/css/yamm3.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/myProj/test/css/yamm.css",
+		"/Users/ericx1023/Library/Application Support/Sublime Text 3/Packages/Emmet/Emmet.sublime-settings",
+		"/Users/ericx1023/Downloads/Final Code/chapter-06/table-headings.html",
+		"/Users/ericx1023/Documents/Blog/content/如果時光能夠倒回",
+		"/Applications/XAMPP/xamppfiles/htdocs/HF-jQuery-All-Code/ch11/end/sightings.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/HF-jQuery-All-Code/ch10/end/sightings.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/HF-jQuery-All-Code/ch10/end/scripts/my_scripts.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/HF-jQuery-All-Code/ch09/end/index.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/HF-jQuery-All-Code/ch09/end/service.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/HF-jQuery-All-Code/ch09/end/scripts/my_scripts.js",
+		"/Users/ericx1023/Documents/Blog/content/about me",
+		"/Users/ericx1023/Documents/Learning Programming/JQuery/HF-jQuery-All-Code/ch09/end/index.html",
+		"/Users/ericx1023/Documents/Learning Programming/JQuery/HF-jQuery-All-Code/ch09/end/scripts/my_scripts.js",
+		"/Users/ericx1023/Documents/Learning Programming/JQuery/HF-jQuery-All-Code/ch09/end/scripts/1.html",
+		"/Users/ericx1023/Documents/Learning Programming/JQuery/HF-jQuery-All-Code/ch08/end/index.html",
+		"/Users/ericx1023/Documents/Learning Programming/JQuery/HF-jQuery-All-Code/ch08/end/scripts/my_scripts.js",
+		"/Users/ericx1023/Documents/Learning Programming/JQuery/HF-jQuery-All-Code/ch07/end/index.html",
+		"/Users/ericx1023/Documents/Learning Programming/JQuery/HF-jQuery-All-Code/ch07/end/scripts/my_scripts.js",
+		"/Users/ericx1023/Documents/Learning Programming/JQuery/HF-jQuery-All-Code/ch06/end/index.html",
+		"/Users/ericx1023/Documents/Learning Programming/JQuery/HF-jQuery-All-Code/ch06/begin/index.html",
+		"/Users/ericx1023/Documents/Learning Programming/JQuery/HF-jQuery-All-Code/ch06/begin/scripts/my_scripts.js",
+		"/Users/ericx1023/Documents/Learning Programming/JQuery/HF-jQuery-All-Code/ch06/begin/styles/my_style.css",
+		"/Users/ericx1023/Documents/Learning Programming/JQuery/HF-jQuery-All-Code/ch06/end/scripts/my_scripts.js",
+		"/Users/ericx1023/Documents/Learning Programming/JQuery/HF-jQuery-All-Code/ch05/end/styles/my_style.css",
+		"/Users/ericx1023/Documents/Learning Programming/JQuery/HF-jQuery-All-Code/ch05/begin/styles/my_style.css",
+		"/Users/ericx1023/Documents/Learning Programming/JQuery/HF-jQuery-All-Code/ch05/begin/index.html",
+		"/Users/ericx1023/Documents/Learning Programming/JQuery/HF-jQuery-All-Code/ch05/end/scripts/my_scripts.js",
+		"/Users/ericx1023/Documents/Learning Programming/JQuery/HF-jQuery-All-Code/ch05/begin/scripts/my_scripts.js",
+		"/Users/ericx1023/Documents/Learning Programming/JQuery/HF-jQuery-All-Code/ch05/end/index.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/banksy/index.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/bootstrap1.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/1.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-config.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-config.php .html",
+		"/Applications/XAMPP/xamppfiles/htdocs/banksy/css/style.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/banksy/css/reset.css",
+		"/Users/ericx1023/Documents/Learning Programming/JQuery/HF-jQuery-All-Code/ch02/begin/styles/my_style.css",
+		"/Users/ericx1023/Documents/Learning Programming/JQuery/HF-jQuery-All-Code/ch02/begin/scripts/my_script.js",
+		"/Users/ericx1023/Documents/Learning Programming/JQuery/HF-jQuery-All-Code/ch02/new.html",
+		"/Users/ericx1023/Documents/Learning Programming/JQuery/HF-jQuery-All-Code/ch02/begin/styles/test_style.css",
+		"/Users/ericx1023/Documents/Learning Programming/JQuery/HF-jQuery-All-Code/ch02/begin/styles/my_test_scripts.js",
+		"/Users/ericx1023/Documents/Learning Programming/JQuery/HF-jQuery-All-Code/ch02/begin/class_test.html",
+		"/Users/ericx1023/Documents/Learning Programming/JQuery/HF-jQuery-All-Code/ch02/begin/scripts/class_test.html",
+		"/Users/ericx1023/Library/Application Support/Sublime Text 3/Packages/SublimeLinter/Default (OSX).sublime-keymap",
+		"/Users/ericx1023/Library/Application Support/Sublime Text 3/Packages/Default/Default (OSX).sublime-keymap",
+		"/Users/ericx1023/Library/Application Support/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings",
+		"/Users/ericx1023/Library/Application Support/Sublime Text 3/Packages/SublimeLinter/SublimeLinter.sublime-settings",
+		"/Users/ericx1023/Library/Application Support/Sublime Text 3/Packages/Alignment/Base File.sublime-settings",
+		"/Users/ericx1023/Documents/Learning Programming/JQuery/HF-jQuery-All-Code/ch01/Begin/styles/my_style.css",
+		"/Users/ericx1023/Documents/Learning Programming/JQuery/HF-jQuery-All-Code/ch01/Begin/index.html",
+		"/Users/ericx1023/Documents/Learning Programming/PHP_MySQL_JS_CSS/SQL1.sql",
+		"/Users/ericx1023/Documents/Learning Programming/PHP_MySQL_JS_CSS/SQL2.sql"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"stylesheets",
+			"=\"\">",
+			"stylesheets",
+			"\"#\"",
+			"padding",
+			"rgb",
+			"rgb(34, 168, 190)",
+			"h5",
+			"tab",
+			"theme",
+			"tab",
+			"tab-control",
+			"sass",
+			"height",
+			"1024px",
+			"article",
+			"/*",
+			"1",
+			"blue",
+			"footer",
+			"header",
+			"<><",
+			"head",
+			"h4",
+			"valign",
+			"\"><",
+			"span",
+			"h2",
+			"td",
+			"h1",
+			"article",
+			"button",
+			"p",
+			"disabled",
+			"h3",
+			"h4",
+			"h3",
+			"absolute",
+			"margin",
+			"ul li",
+			"ul",
+			"navbar",
+			"divider",
+			"but",
+			"knowing",
+			"rebuilding",
+			"list_unstyled",
+			"unstyled",
+			"contain",
+			"fluid",
+			"width",
+			"row",
+			"distance",
+			"click",
+			"setInterval",
+			"	\n",
+			"ctrl+a",
+			"ctrl",
+			"onclick",
+			"utf",
+			"localhost",
+			"positionOption",
+			"km",
+			"profiles",
+			"tmp_name",
+			"image",
+			"view",
+			"upload",
+			"}\n",
+			"php",
+			"form"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 118.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "week8.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"",
+				"Package Control Messages"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"~/Documents/Learning Programming/Java/workspace-java/nestedType/src/nestedType/NestedType.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 155.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
