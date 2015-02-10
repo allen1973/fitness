@@ -1,0 +1,25 @@
+/* line 2, ../sass/p1.scss */
+.blue {
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 500px;
+  height: 500px;
+  background-color: blue;
+}
+
+/* line 11, ../sass/p1.scss */
+.red {
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 200px;
+  height: 200px;
+  background-color: red;
+}
