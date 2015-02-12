@@ -1,4 +1,0 @@
-css 轉換到 scss檔案
-
-sass-convert stylesheets/file.css sass/file.scss
-

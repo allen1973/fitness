@@ -1,40 +1,42 @@
 
-<div class="slider">
+<div class="l-slider">
     <img class="slider_left" src="images/slider-1.png" height="415" width="640" alt="slider one">
     <div class="slider_right">
         <p class="slider_bigText"><a href="#">Special<br />Program</a></p>
         <p class="slider_smlText">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex facilis, dolor, est consequuntur necessitatibus at corporis similique non odio reiciendis.</p>
         <button type="button" class="slider_btn">READ MORE</button>
     </div>
+    <div class="clearfix"></div>
 </div>
 
 
-<div class="content">
-    <div class="content_intro"><p>At just 24 years old, <a herf="#">gamer Carlos "Oceleote" Rodriguez</a> is making about $950,000 per year. The Spaniard is a professional <a href="#">League of Legends</a> player, and told a Spanish news outlet last year that <a href="#">his net worth</a> came from a combination of tournament winnings, merchandising income, salary, live streams and sponsors.Some of the new features like 'Disable JavaScript'.</p>  
-    </div>
+<div class="article"><p>At just 24 years old, <a herf="#">gamer Carlos "Oceleote" Rodriguez</a> is making about $950,000 per year. The Spaniard is a professional <a href="#">League of Legends</a> player, and told a Spanish news outlet last year that <a href="#">his net worth</a> came from a combination of tournament winnings, merchandising income, salary, live streams and sponsors.Some of the new features like 'Disable JavaScript'.</p>  
+</div>
 
-    <div class="content_feature">
-        <div class="content_feature_left">
-            <h2><span>Latest</span> events</h2>
-            <div class="content_feature_left_event1"><img src="images/page1-img1.jpg" height="140" width="185"><h4>Lorem ipsum dolor sit amet, consectetur adipisicing.</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In minus saepe, veritatis dolor vitae optio architecto cum est assumenda rem quos sed animi iure soluta, maxime qui. Quasi cum, obcaecati.</p></div>
-            <div class="content_feature_left_event2">
-            <img src="images/page1-img2.jpg" height="140" width="185">
-            <h4>Lorem ipsum dolor sit amet, consectetur.</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam atque asperiores minus, fugit deserunt dolorum adipisci beatae accusantium? Rerum doloremque sint culpa, esse necessitatibus nesciunt praesentium quaerat blanditiis accusamus quia!</p>
+<div class="feature clearfix">
+    <div class="feature_left">
+        <ul><h2><span>Latest</span> events</h2>
+            <li class="events"><img src="images/page1-img1.jpg" height="140" width="185"><h4>Lorem ipsum dolor sit amet, consectetur adipisicing.</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In minus saepe, veritatis dolor vitae optio architecto cum est assumenda rem quos sed animi iure soluta, maxime qui. Quasi cum, obcaecati.</p></li>
+            <li class="events">
+                <img src="images/page1-img2.jpg" height="140" width="185">
+                <h4>Lorem ipsum dolor sit amet, consectetur.</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam atque asperiores minus, fugit deserunt dolorum adipisci beatae accusantium? Rerum doloremque sint culpa, esse necessitatibus nesciunt praesentium quaerat blanditiis accusamus quia!</p></li>
+            </ul>
+            <div class="clearfix"></div>
+        </div>
+        <div class="feature_right">
+            <ul class="serive_list">
+                <h2>Services <span class="blue">List</span></h2>
+                <% 5.times do %>
+                <li><span><%= lorem_words(3+rand(2)) %></span></li>
+                <% end %>
+            </ul>
+            <div class="findUs">
+                <h2><span>Find us</span> near you</h2>
+                <input class="zipcode" type="text" placeholder="Enter zipcode here">
+                <br />
+                <button class="zipcode_btn">SEARCH</button>
             </div>
-        </div>
-        <div class="content_feature_right">
-        <ul class="serive_list">
-        <h2>Services <span>List</span></h2>
-            <% 5.times do %>
-            <li><span><%= lorem_words(3+rand(2)) %></span></li>
-            <% end %>
-        </ul>
-        <div class="findUs">
-        <h2><span>Find us</span> near you</h2>
-        <input class="zipcode" type="text" placeholder="Enter zipcode here">
-        <br />
-        <button class="zipcode_btn">SEARCH</button></div>
-        </div>
+        </div> 
+        <div class="clear"></div>       
     </div>
-</div>

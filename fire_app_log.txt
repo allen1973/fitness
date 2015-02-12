@@ -147,3 +147,36 @@
 2015-01-30 12:59:09      Copy /stylesheets/p1.css
 2015-01-30 12:59:09      Copy /stylesheets/print.css
 2015-01-30 12:59:09      Copy /stylesheets/screen.css
+2015-02-10 18:12:00    Create index.html
+2015-02-10 18:12:00    Create p1.html
+2015-02-10 18:12:01      Copy /about 拷貝.mkm
+2015-02-10 18:12:01      Copy /about.mkm
+2015-02-10 18:12:01      Copy /about.png
+2015-02-10 18:12:01      Copy /learningNote.txt
+2015-02-10 18:12:01      Copy /week8.sublime-project
+2015-02-10 18:12:01      Copy /week8.sublime-workspace
+2015-02-10 18:12:01      Copy /images/bg_html.jpg
+2015-02-10 18:12:01      Copy /images/dot_blue.gif
+2015-02-10 18:12:01      Copy /images/dot_facebook.png
+2015-02-10 18:12:01      Copy /images/dot_tweet.png
+2015-02-10 18:12:01      Copy /images/icon_03.png
+2015-02-10 18:12:01      Copy /images/logo.png
+2015-02-10 18:12:01      Copy /images/page1-img1.jpg
+2015-02-10 18:12:01      Copy /images/page1-img2.jpg
+2015-02-10 18:12:01      Copy /images/slider-1.png
+2015-02-10 18:12:01      Copy /js/bootstrap.min.js
+2015-02-10 18:12:01      Copy /js/jquery-1.11.2.min.js
+2015-02-10 18:12:01      Copy /stylesheets/ie.css
+2015-02-10 18:12:01      Copy /stylesheets/p1.css
+2015-02-10 18:12:01      Copy /stylesheets/print.css
+2015-02-10 18:12:01      Copy /stylesheets/screen.css
+2015-02-10 18:12:01      Copy /作業 2/about.png
+2015-02-10 18:12:02      Copy /作業 2/images/bg_html.jpg
+2015-02-10 18:12:02      Copy /作業 2/images/dot_blue.gif
+2015-02-10 18:12:02      Copy /作業 2/images/dot_facebook.png
+2015-02-10 18:12:02      Copy /作業 2/images/dot_tweet.png
+2015-02-10 18:12:02      Copy /作業 2/images/icon_03.png
+2015-02-10 18:12:02      Copy /作業 2/images/logo.png
+2015-02-10 18:12:02      Copy /作業 2/images/page1-img1.jpg
+2015-02-10 18:12:02      Copy /作業 2/images/page1-img2.jpg
+2015-02-10 18:12:02      Copy /作業 2/images/slider-1.png

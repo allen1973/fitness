@@ -2,10 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-<!--重要！可影響網站在搜尋引擎結果中的相關性和排名，150字以內
- -->    
+    <!--影響網站在搜尋引擎結果中的相關性和排名，150字以內-->
     <meta name='description' content='Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est nam, fugit nemo!' />
-    <!-- facebook所發表的api，是寫在HTML上的MetaData，讓Facebook可以更精準了解網頁內容，-->
+    <!-- facebook所發表的api，寫在HTML上的MetaData，讓Facebook可以更精準了解網頁內容，-->
      <!-- title:網頁標題 -->
     <meta property="og:title" content="Lorem ipsum dolor sit amet."/>
     <!-- 網頁描述 -->
@@ -17,19 +16,28 @@
     <meta property="og:image" content="http://www.myerstone.com.tw/images/icon.png"/>
     <!-- 給手機建立捷徑用的icon -->
     <link href="images/icon.png" rel="apple-touch-icon" />
-    <title>homework</title>
+    <!-- 套用viewport規則，寬度設定為device-width，初始縮放1 -->
+    <meta name="viewport" content="width=device-width; initial-scale=1.0">
+    <!--用CDN javascript來解決IE8以下問題-->    
+    <!-- [if It IE9]>
+    <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script><![endif]-->
+    
+    <title>Fitness Website</title>
 
-    <link href="stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
+    
+    <link href="stylesheets/screen.css" media="screen, projection" media="screen and (min-width: 1000px)" rel="stylesheet" type="text/css" />
+    <!-- 列印版本 -->
     <link href="stylesheets/print.css" media="print" rel="stylesheet" type="text/css" />
+    <!-- 選用字型 -->
     <link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>  <!--[if IE]>
       <link href="/stylesheets/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
   <![endif]-->
 </head>
 <body>
-    <div id="container">
-        <div class="header"><a href="index.html"><img class="head_logo" src="images/logo.png" height="81" width="171" alt="logo"> </a> 
-        <img class="head_social" src="images/dot_tweet.png" alt="tweeter"><img class="head_social" src="images/dot_facebook.png" alt="facebook">
-            <ul>
+    <div id="l-container">
+        <div class="header"><a href="index.html"><img class="head_logo" src="images/logo.png" height="81" width="171" alt="logo"> </a>
+        <img class="head_social" src="images/dot_tweet.png" alt="tweeter"><img class="head_social" src="images/dot_facebook.png" alt="facebook">    
+            <ul class="nav-bar">
                 <li><a href="p1.html">About</a></li>
                 <li><a href="p1.html">Trainings</a></li>
                 <li><a href="p1.html">Timetable</a></li>
@@ -39,16 +47,16 @@
             </ul>
             <div class="clear"></div>
         </div>
-    </div>
 
         <%= yield %>
 
-    <div class="footer">
+    <div class="l-footer">
     <p>&copy;2012 Fitness Club<br />
     <a href="stylesheets">Website Template</a> by ShengTemplate.com</p>
     </div>
       <!--<script src="js/jquery-1.11.2.min.js"></script>
       <script src="js/bootstrap.min.js"></script>-->
+      </div>
 
 </body>
 </html>
