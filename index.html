@@ -2,10 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-<!--重要！可影響網站在搜尋引擎結果中的相關性和排名，150字以內
- -->
+    <!--影響網站在搜尋引擎結果中的相關性和排名，150字以內-->
     <meta name='description' content='Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est nam, fugit nemo!' />
-    <!-- facebook所發表的api，是寫在HTML上的MetaData，讓Facebook可以更精準了解網頁內容，-->
+    <!-- facebook所發表的api，寫在HTML上的MetaData，讓Facebook可以更精準了解網頁內容，-->
      <!-- title:網頁標題 -->
     <meta property="og:title" content="Lorem ipsum dolor sit amet."/>
     <!-- 網頁描述 -->
@@ -17,19 +16,28 @@
     <meta property="og:image" content="http://www.myerstone.com.tw/images/icon.png"/>
     <!-- 給手機建立捷徑用的icon -->
     <link href="images/icon.png" rel="apple-touch-icon" />
-    <title>homework</title>
+    <!-- 套用viewport規則，寬度設定為device-width，初始縮放1 -->
+    <meta name="viewport" content="width=device-width; initial-scale=1.0">
+    <!--用CDN javascript來解決IE8以下問題-->    
+    <!-- [if It IE9]>
+    <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script><![endif]-->
+    
+    <title>Fitness Website</title>
 
-    <link href="stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
+    
+    <link href="stylesheets/screen.css" media="screen, projection" media="screen and (min-width: 1000px)" rel="stylesheet" type="text/css" />
+    <!-- 列印版本 -->
     <link href="stylesheets/print.css" media="print" rel="stylesheet" type="text/css" />
+    <!-- 選用字型 -->
     <link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>  <!--[if IE]>
       <link href="/stylesheets/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
   <![endif]-->
 </head>
 <body>
     <div id="l-container">
-        <div class="header"><a href="index.html"><img class="head_logo" src="images/logo.png" height="81" width="171" alt="logo"> </a>
-        <img class="head_social" src="images/dot_tweet.png" alt="tweeter"><img class="head_social" src="images/dot_facebook.png" alt="facebook">    
-            <ul class="nav-bar">
+        <div class="header"><a href="index.html"><img class="header_logo" src="images/logo.png" height="81" width="171" alt="logo"> </a>
+        <img class="header_social" src="images/dot_tweet.png" alt="tweeter"><img class="header_social" src="images/dot_facebook.png" alt="facebook">    
+            <ul class="header-nav-bar">
                 <li><a href="p1.html">About</a></li>
                 <li><a href="p1.html">Trainings</a></li>
                 <li><a href="p1.html">Timetable</a></li>
@@ -48,39 +56,39 @@
         <p class="slider_smlText">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex facilis, dolor, est consequuntur necessitatibus at corporis similique non odio reiciendis.</p>
         <button type="button" class="slider_btn">READ MORE</button>
     </div>
+    <div class="clearfix"></div>
 </div>
 
 
-<div class="article"><p>At just 24 years old, <a herf="#">gamer Carlos "Oceleote" Rodriguez</a> is making about $950,000 per year. The Spaniard is a professional <a href="#">League of Legends</a> player, and told a Spanish news outlet last year that <a href="#">his net worth</a> came from a combination of tournament winnings, merchandising income, salary, live streams and sponsors.Some of the new features like 'Disable JavaScript'.</p>  
+<div class="l-article"><p>At just 24 years old, <a herf="#">gamer Carlos "Oceleote" Rodriguez</a> is making about $950,000 per year. The Spaniard is a professional <a href="#">League of Legends</a> player, and told a Spanish news outlet last year that <a href="#">his net worth</a> came from a combination of tournament winnings, merchandising income, salary, live streams and sponsors.Some of the new features like 'Disable JavaScript'.</p>  
 </div>
 
-<div class="feature clearfix">
+<div class="l-feature clearfix">
     <div class="feature_left">
-        <ul><h2><span>Latest</span> events</h2>
-            <li class="events"><img src="images/page1-img1.jpg" height="140" width="185"><h4>Lorem ipsum dolor sit amet, consectetur adipisicing.</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In minus saepe, veritatis dolor vitae optio architecto cum est assumenda rem quos sed animi iure soluta, maxime qui. Quasi cum, obcaecati.</p></li>
-            <li class="events">
-                <img src="images/page1-img2.jpg" height="140" width="185">
+        <ul class="events-ul"><h2><span>Latest</span> events</h2>
+            <li class="events-li"><img src="images/page1-img1.jpg" height="140" width="185"><h4>Lorem ipsum dolor sit amet, consectetur adipisicing.</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In minus saepe, veritatis dolor vitae optio architecto cum est assumenda rem quos sed animi iure soluta, maxime qui. Quasi cum, obcaecati.</p></li>
+            <li class="events-li"><img src="images/page1-img2.jpg" height="140" width="185">
                 <h4>Lorem ipsum dolor sit amet, consectetur.</h4>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam atque asperiores minus, fugit deserunt dolorum adipisci beatae accusantium? Rerum doloremque sint culpa, esse necessitatibus nesciunt praesentium quaerat blanditiis accusamus quia!</p></li>
             </ul>
             <div class="clearfix"></div>
         </div>
         <div class="feature_right">
-            <ul class="serive_list">
+            <ul class="service_list">
                 <h2>Services <span class="blue">List</span></h2>
                 
-                <li><span>est dignissimos a laborum</span></li>
+                <li><span>totam id odit voluptatem</span></li>
                 
-                <li><span>iusto illum aut</span></li>
+                <li><span>dolorem sit vero</span></li>
                 
-                <li><span>quia eum at illo</span></li>
+                <li><span>sunt tempore corporis</span></li>
                 
-                <li><span>et accusamus odio</span></li>
+                <li><span>quos recusandae minima</span></li>
                 
-                <li><span>non asperiores cupiditate</span></li>
+                <li><span>libero et qui</span></li>
                 
             </ul>
-            <div class="findUs">
+            <div class="findus">
                 <h2><span>Find us</span> near you</h2>
                 <input class="zipcode" type="text" placeholder="Enter zipcode here">
                 <br />
