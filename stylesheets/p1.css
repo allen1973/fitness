@@ -1,25 +1,92 @@
-/* line 2, ../sass/p1.scss */
-.blue {
-  margin: auto;
+/* line 7, ../sass/p1.scss */
+.l-sidenav {
+  font-size: 0.8em;
   position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  width: 500px;
-  height: 500px;
-  background-color: blue;
+  left: 0px;
+  float: left;
+  padding: 20px 0px 20px 20px;
+  margin-left: 0;
+  width: 148px;
+}
+/* line 16, ../sass/p1.scss */
+.l-sidenav a {
+  color: #5D3B24;
+}
+/* line 17, ../sass/p1.scss */
+.l-sidenav hr {
+  padding: 0px;
+  color: gray;
+  height: 1px;
 }
 
-/* line 11, ../sass/p1.scss */
-.red {
-  margin: auto;
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  width: 200px;
-  height: 200px;
-  background-color: red;
+/* line 23, ../sass/p1.scss */
+.category {
+  list-style-type: disc;
+  list-style-position: inside;
+}
+/* line 26, ../sass/p1.scss */
+.category li {
+  padding: 10px 0px;
+}
+/* line 27, ../sass/p1.scss */
+.category h2 {
+  font-size: 1.1em;
+}
+
+/* line 30, ../sass/p1.scss */
+.sale_news {
+  list-style-type: circle;
+  list-style-position: inside;
+  padding-left: 10px;
+}
+/* line 34, ../sass/p1.scss */
+.sale_news li {
+  padding: 10px 0px;
+}
+
+/* line 37, ../sass/p1.scss */
+.items {
+  background-color: white;
+}
+
+/* line 41, ../sass/p1.scss */
+.list_display li {
+  margin-top: 10px;
+  display: inline-block;
+  text-align: center;
+}
+/* line 46, ../sass/p1.scss */
+.list_display img {
+  padding: 30px;
+}
+
+/* line 51, ../sass/p1.scss */
+.picksize {
+  text-align: center;
+  padding-top: 5px;
+  width: 155px;
+  margin: 5px auto 0;
+  padding: 0px;
+}
+/* line 57, ../sass/p1.scss */
+.picksize a {
+  text-decoration: none;
+  width: 23px;
+  padding: 3px 0;
+  display: inline-block;
+  background-color: #eee;
+  border: 1px solid #eee;
+  color: #555;
+  -webkit-text-size-adjust: none;
+  font-size: 12px;
+  font-family: Arial;
+  margin: 4px 15px 0 0;
+  text-align: center;
+}
+
+/* line 72, ../sass/p1.scss */
+.productname {
+  width: 140px;
+  line-height: 2.5;
+  color: gray;
 }

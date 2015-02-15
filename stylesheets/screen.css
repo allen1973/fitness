@@ -76,79 +76,84 @@ body {
   background-image: url(../images/bg_html.jpg);
 }
 
-/* line 19, ../sass/screen.scss */
+/* line 17, ../sass/screen.scss */
+div {
+  display: block;
+}
+
+/* line 21, ../sass/screen.scss */
 img {
   max-width: 100%;
 }
 
-/* line 21, ../sass/screen.scss */
+/* line 23, ../sass/screen.scss */
 a {
   text-decoration: none;
   color: #01A5CA;
 }
 
-/* line 25, ../sass/screen.scss */
+/* line 27, ../sass/screen.scss */
 a:hover {
   font-weight: bold;
   opacity: 0.7;
 }
 
-/* line 30, ../sass/screen.scss */
+/* line 32, ../sass/screen.scss */
 h2 {
   font-size: 1.4em;
 }
 
-/* line 32, ../sass/screen.scss */
-.header {
-  margin: 0 auto;
-  text-align: right;
-}
-
-/* line 38, ../sass/screen.scss */
+/* line 35, ../sass/screen.scss */
 .clearfix:before, .clearfix:after {
   content: "";
   display: table;
 }
 
-/* line 42, ../sass/screen.scss */
+/* line 39, ../sass/screen.scss */
 .clearfix:after {
   clear: both;
   overflow: hidden;
 }
 
-/* line 46, ../sass/screen.scss */
+/* line 43, ../sass/screen.scss */
 .clearfix {
   zoom: 1;
 }
 
-/* line 52, ../sass/screen.scss */
+/* line 50, ../sass/screen.scss */
+.header {
+  margin: 0 auto;
+  text-align: right;
+}
+
+/* line 55, ../sass/screen.scss */
 .header_logo {
   float: left;
   padding: 30px 0px 30px 20px;
 }
 
-/* line 57, ../sass/screen.scss */
+/* line 60, ../sass/screen.scss */
 .header_social {
   display: inline;
   float: right;
   padding: 30px 5px 40px 5px;
 }
 
-/* line 63, ../sass/screen.scss */
+/* line 66, ../sass/screen.scss */
 .header-nav-bar {
   padding: 100px 10px 30px 0px;
 }
-/* line 65, ../sass/screen.scss */
+/* line 68, ../sass/screen.scss */
 .header-nav-bar li {
   display: inline;
   padding-left: 30px;
   font-size: 1.2em;
 }
-/* line 69, ../sass/screen.scss */
+/* line 72, ../sass/screen.scss */
 .header-nav-bar li a {
   color: black;
 }
-/* line 70, ../sass/screen.scss */
+/* line 73, ../sass/screen.scss */
 .header-nav-bar li a:hover {
   color: #01A5CA;
   font-weight: normal;
@@ -169,31 +174,31 @@ h2 {
     border-bottom: black dotted 1px;
   }
 }
-/* line 82, ../sass/screen.scss */
+/* line 85, ../sass/screen.scss */
 .l-slider {
   width: 100%;
   clear: both;
   background-color: rgba(0, 0, 0, 0.85);
 }
 
-/* line 88, ../sass/screen.scss */
+/* line 91, ../sass/screen.scss */
 .slider_left {
   float: left;
 }
 
-/* line 92, ../sass/screen.scss */
+/* line 95, ../sass/screen.scss */
 .slider_right {
   padding-left: 650px;
 }
 
-/* line 97, ../sass/screen.scss */
+/* line 100, ../sass/screen.scss */
 .slider_bigText {
   font-size: 2.2em;
   padding: 45px 0px 30px 45px;
   color: #01A5CA;
 }
 
-/* line 103, ../sass/screen.scss */
+/* line 106, ../sass/screen.scss */
 .slider_smlText {
   color: white;
   padding: 0px 45px 30px 45px;
@@ -201,7 +206,7 @@ h2 {
   line-height: 1.4em;
 }
 
-/* line 111, ../sass/screen.scss */
+/* line 114, ../sass/screen.scss */
 .slider_btn {
   border: none;
   margin-left: 45px;
@@ -212,12 +217,12 @@ h2 {
   height: 45px;
 }
 
-/* line 120, ../sass/screen.scss */
+/* line 123, ../sass/screen.scss */
 .slider_btn:hover {
   cursor: pointer;
 }
 
-/* line 125, ../sass/screen.scss */
+/* line 128, ../sass/screen.scss */
 .l-article {
   margin-top: 50px;
   background-color: white;
@@ -225,73 +230,73 @@ h2 {
   line-height: 1.8em;
 }
 
-/* line 132, ../sass/screen.scss */
+/* line 135, ../sass/screen.scss */
 .l-feature {
   margin-top: 50px;
   padding-bottom: 50px;
   background-color: #fff;
 }
 
-/* line 138, ../sass/screen.scss */
+/* line 141, ../sass/screen.scss */
 .feature_left {
   float: left;
   width: 650px;
 }
-/* line 141, ../sass/screen.scss */
+/* line 144, ../sass/screen.scss */
 .feature_left h2 {
   font-size: 1.5em;
   padding-top: 35px;
   padding-left: 50px;
 }
-/* line 146, ../sass/screen.scss */
+/* line 149, ../sass/screen.scss */
 .feature_left span {
   color: #01A5CA;
 }
 
-/* line 148, ../sass/screen.scss */
+/* line 151, ../sass/screen.scss */
 .events-li {
   padding: 20px 20px 10px 50px;
   line-height: 1.3em;
 }
-/* line 151, ../sass/screen.scss */
+/* line 154, ../sass/screen.scss */
 .events-li img {
   float: left;
 }
-/* line 155, ../sass/screen.scss */
+/* line 158, ../sass/screen.scss */
 .events-li h4 {
   margin-left: 185px;
   padding-left: 25px;
   font-weight: bold;
 }
-/* line 160, ../sass/screen.scss */
+/* line 163, ../sass/screen.scss */
 .events-li p {
   margin-left: 185px;
   padding-left: 25px;
 }
 
-/* line 166, ../sass/screen.scss */
+/* line 169, ../sass/screen.scss */
 .feature_right {
   float: right;
   width: 290px;
 }
 
-/* line 171, ../sass/screen.scss */
+/* line 174, ../sass/screen.scss */
 .service_list {
   padding: 40px 0px 0px 0px;
 }
-/* line 173, ../sass/screen.scss */
+/* line 176, ../sass/screen.scss */
 .service_list h2 {
   font-size: 1.5em;
 }
-/* line 175, ../sass/screen.scss */
+/* line 178, ../sass/screen.scss */
 .service_list .blue {
   color: #01A5CA;
 }
-/* line 177, ../sass/screen.scss */
+/* line 180, ../sass/screen.scss */
 .service_list ul {
   margin-left: 10px;
 }
-/* line 179, ../sass/screen.scss */
+/* line 182, ../sass/screen.scss */
 .service_list li {
   color: black;
   margin-top: 15px;
@@ -299,38 +304,38 @@ h2 {
   position: relative;
   padding-left: 17px;
 }
-/* line 186, ../sass/screen.scss */
+/* line 189, ../sass/screen.scss */
 .service_list li:before {
   position: absolute;
   color: #01A5CA;
   content: "\2b29";
   left: 0;
 }
-/* line 191, ../sass/screen.scss */
+/* line 194, ../sass/screen.scss */
 .service_list li:before span {
   color: black;
 }
 
-/* line 196, ../sass/screen.scss */
+/* line 199, ../sass/screen.scss */
 .findus {
   padding-left: 10px;
 }
-/* line 198, ../sass/screen.scss */
+/* line 201, ../sass/screen.scss */
 .findus h2 {
   padding-top: 40px;
 }
-/* line 199, ../sass/screen.scss */
+/* line 202, ../sass/screen.scss */
 .findus span {
   color: #01A5CA;
 }
-/* line 201, ../sass/screen.scss */
+/* line 204, ../sass/screen.scss */
 .findus .zipcode {
   font-size: 16px;
   width: 210px;
   height: 40px;
   margin-top: 20px;
 }
-/* line 207, ../sass/screen.scss */
+/* line 210, ../sass/screen.scss */
 .findus .zipcode_btn {
   font-size: 1em;
   border: none;
@@ -340,19 +345,112 @@ h2 {
   width: 100px;
   height: 40px;
 }
-/* line 215, ../sass/screen.scss */
+/* line 218, ../sass/screen.scss */
 .findus .zipcode_btn:hover {
   cursor: pointer;
 }
 
-/* line 222, ../sass/screen.scss */
+/* line 7, ../sass/p1.scss */
+.l-sidenav {
+  font-size: 0.8em;
+  position: absolute;
+  left: 0px;
+  float: left;
+  padding: 20px 0px 20px 20px;
+  margin-left: 0;
+  width: 148px;
+}
+/* line 16, ../sass/p1.scss */
+.l-sidenav a {
+  color: #5D3B24;
+}
+/* line 17, ../sass/p1.scss */
+.l-sidenav hr {
+  padding: 0px;
+  color: gray;
+  height: 1px;
+}
+
+/* line 23, ../sass/p1.scss */
+.category {
+  list-style-type: disc;
+  list-style-position: inside;
+}
+/* line 26, ../sass/p1.scss */
+.category li {
+  padding: 10px 0px;
+}
+/* line 27, ../sass/p1.scss */
+.category h2 {
+  font-size: 1.1em;
+}
+
+/* line 30, ../sass/p1.scss */
+.sale_news {
+  list-style-type: circle;
+  list-style-position: inside;
+  padding-left: 10px;
+}
+/* line 34, ../sass/p1.scss */
+.sale_news li {
+  padding: 10px 0px;
+}
+
+/* line 37, ../sass/p1.scss */
+.items {
+  background-color: white;
+}
+
+/* line 41, ../sass/p1.scss */
+.list_display li {
+  margin-top: 10px;
+  display: inline-block;
+  text-align: center;
+}
+/* line 46, ../sass/p1.scss */
+.list_display img {
+  padding: 30px;
+}
+
+/* line 51, ../sass/p1.scss */
+.picksize {
+  text-align: center;
+  padding-top: 5px;
+  width: 155px;
+  margin: 5px auto 0;
+  padding: 0px;
+}
+/* line 57, ../sass/p1.scss */
+.picksize a {
+  text-decoration: none;
+  width: 23px;
+  padding: 3px 0;
+  display: inline-block;
+  background-color: #eee;
+  border: 1px solid #eee;
+  color: #555;
+  -webkit-text-size-adjust: none;
+  font-size: 12px;
+  font-family: Arial;
+  margin: 4px 15px 0 0;
+  text-align: center;
+}
+
+/* line 72, ../sass/p1.scss */
+.productname {
+  width: 140px;
+  line-height: 2.5;
+  color: gray;
+}
+
+/* line 225, ../sass/screen.scss */
 .l-footer {
   clear: left;
   padding-top: 35px;
   margin-bottom: 45px;
   text-align: center;
 }
-/* line 227, ../sass/screen.scss */
+/* line 230, ../sass/screen.scss */
 .l-footer p {
   line-height: 1.5em;
 }
