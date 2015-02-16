@@ -1,0 +1,238 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+ 
+ $blue : #01A5CA;
+ @import "compass/reset";
+
+
+ body {
+  font-family: 'Droid Sans',Helvetica,Verdana, Arial, sans-serif;
+  font-size  : 1em;
+  width      : 940px;
+  margin     : 0 auto;
+  background-image: url(../images/bg_html.jpg);
+}
+div{
+  display:block;
+}
+
+img {max-width:100%;}
+
+a{
+  text-decoration: none;
+  color          :$blue;
+}
+a:hover {
+  font-weight: bold;
+  opacity    : 0.7;
+}
+
+h2{font-size: 1.4em;}
+
+//修復float的父元素坍踏部分
+.clearfix:before, .clearfix:after {
+  content:"";
+  display:table;
+}
+.clearfix:after{
+  clear:both;
+  overflow:hidden;
+}
+.clearfix{
+    zoom:1;
+}
+//修復坍塌部分結束
+
+
+//Header共用部分
+.header {
+  margin    : 0 auto;
+  text-align: right;
+}
+
+.header_logo{
+  float: left;
+  padding:30px 0px 30px 20px;
+}
+
+.header_social {
+  display:inline;
+  float  : right;
+  padding: 30px 5px 40px 5px;
+}
+
+.header-nav-bar{
+ padding:100px 10px 30px 0px;
+ li {
+  display: inline;
+  padding-left: 30px;
+  font-size: 1.2em;
+  a {color: black;}
+  a:hover {
+    color:$blue;
+    font-weight: normal;
+    opacity: 0.7;
+  }
+}
+}
+//nav-bar adjuctment
+@import "570px.scss";
+
+
+//Slider公用部分
+ .l-slider {
+   width: 100%;
+   clear:both;
+   background-color: rgba(0, 0, 0, 0.85);
+ }
+
+ .slider_left{
+   float: left;
+ }
+
+ .slider_right {
+   padding-left: 650px;
+
+ }
+
+ .slider_bigText {
+   font-size: 2.2em;
+   padding: 45px 0px 30px 45px;
+   color: $blue;
+ }
+
+ .slider_smlText {
+   color: white;
+   padding: 0px 45px 30px 45px; 
+   font-weight: normal;
+   line-height: 1.4em;
+
+ }
+
+ .slider_btn {
+   border: none;
+   margin-left: 45px;
+   text-align: center;
+   background-color: rgba(100, 100, 100, 0.85);
+   color: white;
+   width: 130px;height: 45px;
+ }
+
+ .slider_btn:hover{
+   cursor:pointer;
+ }
+
+
+.l-article {
+  margin-top: 50px;
+  background-color: white;
+  padding: 50px;
+  line-height: 1.8em;
+}
+
+.l-feature{
+  margin-top: 50px;
+  padding-bottom: 50px;
+  background-color: #fff;
+}
+
+.feature_left{
+  float: left;
+  width: 650px;
+  h2{
+    font-size: 1.5em;
+    padding-top:35px;
+    padding-left:50px;
+  }
+  span{color:$blue;}
+}
+.events-li {
+  padding: 20px 20px 10px 50px;
+  line-height: 1.3em;
+  img{
+    float: left;
+  }
+
+  h4{
+    margin-left: 185px;
+    padding-left:25px;
+    font-weight: bold;
+  }
+  p{
+    margin-left: 185px;
+    padding-left:25px;
+  }
+}
+
+.feature_right{
+  float: right;
+  width: 290px;
+}
+
+.service_list{
+  padding: 40px 0px 0px 0px;
+  h2{font-size: 1.5em;}
+
+  .blue {color:$blue;}
+
+  ul{margin-left: 10px;}
+
+  li{
+    color:black;
+    margin-top: 15px;
+    font-size: 0.9em;
+    position:relative;
+    padding-left: 17px;
+  }
+  li:before{
+    position:absolute;
+    color:$blue;
+    content:"\2b29";
+    left:0;
+    span{color:black;}
+  }
+
+}
+
+.findus{
+  padding-left: 10px;
+  h2{padding-top: 40px;}
+  span{color:$blue;
+  }
+  .zipcode{
+    font-size: 16px;
+    width: 210px;
+    height: 40px;
+    margin-top:20px;
+  }
+  .zipcode_btn{
+    font-size: 1em;
+    border: none;
+    margin-top: 20px;
+    background-color: #EBEBEB;
+    color: $blue;
+    width: 100px;height: 40px;
+  }
+  .zipcode_btn:hover{
+    cursor:pointer;
+  }
+}
+
+@import "p1.scss";
+
+.l-footer{
+  clear:left;
+  padding-top: 35px;
+  margin-bottom: 45px;
+  text-align: center;
+  p{line-height: 1.5em;}
+}
+
+ // 940px以下螢幕slider設定
+@import "tablet.scss";
+
+
+
+

@@ -1,0 +1,103 @@
+@media screen and (max-width: 940px) {
+  /* line 3, ../sass/tablet.scss */
+  body {
+    width: 100%;
+  }
+
+  /* line 13, ../sass/tablet.scss */
+  .header-nav-bar {
+    clear: both;
+    padding: 0px 0px 20px 0px;
+  }
+
+  /* line 24, ../sass/tablet.scss */
+  .slider_left {
+    padding: 0;
+    float: none;
+    width: 100%;
+  }
+
+  /* line 31, ../sass/tablet.scss */
+  .slider_right {
+    padding: 20px;
+    text-align: center;
+  }
+
+  /* line 36, ../sass/tablet.scss */
+  .slider_bigText {
+    padding: 0px;
+    padding-top: 10px;
+  }
+
+  /* line 41, ../sass/tablet.scss */
+  .slider_smlText {
+    margin: 0 20% 0 20%;
+    padding: 0;
+    padding-top: 20px;
+    text-align: left;
+    font-size: 1.2em;
+  }
+
+  /* line 49, ../sass/tablet.scss */
+  .slider_btn {
+    padding: 0px;
+    margin: 0px;
+    margin-top: 20px;
+  }
+
+  /* line 55, ../sass/tablet.scss */
+  .slider_btn:hover {
+    cursor: pointer;
+  }
+
+  /* line 59, ../sass/tablet.scss */
+  .l-article {
+    margin-top: 0px;
+  }
+
+  /* line 63, ../sass/tablet.scss */
+  .l-feature {
+    margin-top: 0px;
+    background-color: #f0f0f0;
+  }
+
+  /* line 68, ../sass/tablet.scss */
+  .feature_left {
+    float: none;
+    width: 100%;
+    padding-bottom: 20px;
+  }
+
+  /* line 74, ../sass/tablet.scss */
+  .events-li {
+    clear: left;
+  }
+
+  /* line 79, ../sass/tablet.scss */
+  .feature_right {
+    background-color: white;
+    float: none;
+    width: 100%;
+  }
+
+  /* line 85, ../sass/tablet.scss */
+  .service_list {
+    text-align: center;
+    margin: auto;
+    padding-bottom: 30px;
+  }
+  /* line 89, ../sass/tablet.scss */
+  .service_list li {
+    font-size: 1.2em;
+  }
+  /* line 92, ../sass/tablet.scss */
+  .service_list li:before {
+    position: relative;
+  }
+
+  /* line 97, ../sass/tablet.scss */
+  .findus {
+    background-color: #f0f0f0;
+    text-align: center;
+  }
+}

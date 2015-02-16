@@ -1,0 +1,14 @@
+@media screen and(max-width:570px){
+.header-nav-bar{
+  li{
+    margin: 0 20px;
+    display: block;
+    text-align: left;
+    border-top: black dotted 1px;
+    padding:10px;
+  }  
+  li:last-child{
+    border-bottom: black dotted 1px;
+  }
+}
+}

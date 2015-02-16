@@ -1,0 +1,102 @@
+$blue : #01A5CA;
+@media screen and (max-width:940px){
+  body{
+    width:100%;
+
+  }
+
+
+//header部分
+
+.header{
+}
+.header-nav-bar{
+  clear:both;
+  padding:0px 0px 20px 0px;
+
+}
+
+
+//slider部分
+.l-slider {
+}
+
+.slider_left{
+  padding: 0;
+  float:none;
+  width: 100%;
+
+}
+
+.slider_right {
+  padding:20px;
+  text-align: center;
+}
+
+.slider_bigText {
+  padding: 0px;
+  padding-top: 10px;
+}
+
+.slider_smlText {
+  margin:0 20% 0 20%;
+  padding: 0;
+  padding-top: 20px;
+  text-align: left;
+  font-size: 1.2em;
+}
+
+.slider_btn {
+  padding: 0px;
+  margin:0px;
+  margin-top: 20px;
+}
+
+.slider_btn:hover{
+  cursor:pointer;
+}
+
+.l-article {
+  margin-top: 0px;
+}
+
+.l-feature{
+  margin-top: 0px;
+  background-color:#f0f0f0;
+
+}
+.feature_left{
+  float: none;
+  width: 100%;
+  padding-bottom:20px;
+
+}
+.events-li{
+    clear:left;
+
+}
+
+.feature_right{
+  background-color: white;
+  float: none;
+  width: 100%;
+}
+
+.service_list{
+  text-align: center;
+  margin: auto;
+  padding-bottom: 30px;
+  li{
+    font-size: 1.2em;
+  }
+  li:before{
+    position: relative;
+  }
+}
+
+.findus{
+  background-color: #f0f0f0;
+  text-align: center;
+}
+}
+
